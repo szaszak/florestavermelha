@@ -1,0 +1,29 @@
+Shutter Speed and Exposure time cheatsheet
+
+In case you are not using ElphelVision to do your monitoring and recording, you will need a cheatsheet to set the exposure time (shutter speed). This is because in Elphel’s interface, this number is in miliseconds. So here it goes:
+
+Exposure time vs Shutter speed in Elphel
+Shutter speed   Exposure time   ms
+1 sec     	1     	1000 ms
+1/2     	0,5     500 ms
+1/4     	0,25     250 ms
+1/8     	0,125     125 ms
+1/15     	0,066     66 ms
+—————————————
+1/24     	0,041     41 ms
+1/25     	0,040     40 ms
+—————————————
+1/30     	0,033     33 ms
+1/60     	0,016     16 ms
+1/90     	0,011     11 ms
+1/125     	0,008     8 ms
+1/250     	0,004     4 ms
+1/500     	0,002     2 ms
+1/1000     	0,001     1 ms
+
+Knowing that:
+Halving the shutter speed = +1 Exposure Value (EV);
+Every 1.4 increase in aperture size (1 F-Stop) = +1 Exposure Value (EV)
+
+F-Stops:
+1.4     2     2.8     4     5.6     8     11     16     22

@@ -1,0 +1,11 @@
+The higher the resolution, the higher the frame size. So another way of looking at the same issue is to consider how much data you need to transfer, both to stream and to record. In my case, my safe margin seems to be:
+
+Maximum data rate (frame size) that can be achieved for 2064×896 @ 23.994 JP4:
+Media                                   Frame size with streaming              Frame size without streaming
+Buggy CF card:                    	250k ~260k                                        296k ~ 300k
+External SATA drive:         		below 470k                                       664k ~ 760k
+
+This way I can play with resolution – increase the frame size and decrease JPEG Quality.  As long as I keep close to these values, it should work and I shan’t have buffer overruns and dropped frames.
+
+
+
